@@ -1,0 +1,3 @@
+/home/random/HomeWork/hw4/build/CMakeFiles/rebuild_cache.dir
+/home/random/HomeWork/hw4/build/CMakeFiles/edit_cache.dir
+/home/random/HomeWork/hw4/build/CMakeFiles/main.dir
