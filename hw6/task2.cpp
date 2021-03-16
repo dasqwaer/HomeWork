@@ -4,36 +4,69 @@
 using namespace std;
 
 int main() {
-  string *s= new string;
+  char * s = new char [200];
+ char a = 64;
+for (int i=0; i<201; i++){
+a++;
+char *p;
+p=&a;
+if (a==90)
+{
+    a=64;
+}
+ *(s+i)=*p;    
+ }
+
+ for (int i=25; i<201; i+=26){
+ *(s+i)='\n'; 
+ 	
+ };
+
  
- 	// ifstream используется для чтения содержимого файлов.
-	// Мы попытаемся прочитать содержимое файла File1.txt
-	ifstream inf("File1.txt");
+    
+    ofstream o ("File1.txt");
+    if (!o)
+	{
+		cout << "Error open File1.txt! (ofstream)" << endl;	
+	}
+    o << s; 
+    
+	ifstream inf ("File1.txt");
  
-	// Если мы не можем открыть файл для чтения его содержимого,
 	if (!inf)
 	{
-		// то выводим следующее сообщение об ошибке и выполняем функцию exit()
-		cerr << "Uh oh, File1.txt could not be opened for reading!" << endl;
-		exit(1);
+		cout << "Error open File1.txt!" << endl;	
 	}
- ofstream outf("File2.txt", ios::app);
-	// Пока есть, что читать,
-	while (inf)
+    inf >> s;
+ 
+    ofstream o2 ("File3.txt");
+    if (!o2)
 	{
-		// то перемещаем то, что можем прочитать, в строку, а затем выводим эту строку на экран
-		//string strInput;
-		getline(inf, *s);
-		cout << *s << "\n";
-        outf << *s << "\n";
+		cout << "Error open File3.txt! (ofstream)" << endl;	
 	}
- 	// Передаем флаг ios:app, чтобы сообщить fstream, что мы собираемся добавить свои данные к уже существующим данным файла.
-	// Мы не собираемся перезаписывать файл.
-	// Нам не нужно передавать флаг ios::out, поскольку ofstream по умолчанию работает в режиме ios::out
-	
-
+    o2 << s; 
+    o2.close();
     
-	
+
+	ifstream inf2 ("File2.txt");
+ 
+	if (!inf2)
+	{
+		cout << "Error open File2.txt!" << endl;	
+	}
+    inf2.getline (s,200);
+        for (int i=0;i<200;i++){
+            cout << s [i];
+        }
+    ofstream o3 ("File3.txt", ios::app);
+    if (!o3)
+	{
+		cout << "Error open File3.txt! (ofstream)" << endl;	
+	}
+    o3 << s; 
+
+
+ 	
  
   return 0;
 }
