@@ -1,3 +1,4 @@
 project (hw5)
 cmake_minimum_required(VERSION 3.12)
-add_executable(main_5 task5.cpp)
+set(CMAKE_CXX_STANDARD_REQUIRED c++17)
+add_executable(main_6 task6.cpp peggi_func.cpp)
