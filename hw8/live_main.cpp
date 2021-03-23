@@ -1,6 +1,6 @@
 #include <iostream>
 #include <random>
-
+int aaa=3;
 enum class CellState {
     Empty, X, O
 };
@@ -10,7 +10,7 @@ enum class Sign {
 };
 
 struct GameField {
-    CellState cells[9];
+    CellState *cells = new CellState [aaa*aaa];
 };
 
 struct GameData {
@@ -25,12 +25,12 @@ struct TurnOutcome {
 };
 
 bool isValidCell(size_t row, size_t column) {
-    return row >= 0 && row < 3 && column >= 0 && column < 3;
+    return row >= 0 && row < aaa && column >= 0 && column < aaa;
 }
 
 CellState getCell(const GameField& field, size_t row, size_t column) {
     if (!isValidCell(row, column)) return CellState::Empty;
-    return field.cells[column * 3 + row];
+    return field.cells[column * aaa + row];
 }
 
 bool isCellEmpty(const GameField& field, size_t row, size_t column) {
@@ -39,16 +39,18 @@ bool isCellEmpty(const GameField& field, size_t row, size_t column) {
 
 void putSign(GameField& field, Sign sign, size_t row, size_t column) {
     if (isValidCell(row, column)) {
-        field.cells[column * 3 + row] = (sign == Sign::X) ? CellState::X : CellState::O;
+        field.cells[column * aaa + row] = (sign == Sign::X) ? CellState::X : CellState::O;
     }
 }
 
 bool askQuestion(char positive, char negative) {
+    
     char sign {};
     std::cin >> sign;
     sign = tolower(sign);
 
     while (sign != positive && sign != negative) {
+        
         std::cout << "Wrong input: received '" << sign << "', should be one of " << positive << " or " << negative << "\n";
         std::cin >> sign;
         sign = tolower(sign);
@@ -57,6 +59,16 @@ bool askQuestion(char positive, char negative) {
 }
 
 Sign queryPlayerSign() {
+     std::cout << "Enter field size from 3 to 100: ";
+    int field_size;
+    std::cin >> field_size;
+     while (!(field_size>=3&&field_size<100)) {
+        std::cin.clear();
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        std::cout << "Wrong input, please enter field size from 3 to 100: ";
+        std::cin >> field_size;
+    }
+    aaa=field_size;
     std::cout << "Please input wheter you're X or O: ";
     bool isX = askQuestion('x', 'o');
     return isX ? Sign::X : Sign::O;
@@ -65,11 +77,11 @@ Sign queryPlayerSign() {
 TurnOutcome checkTurnOutcome(const GameField& field);
 
 void processAiTurn(GameField& field, Sign ai_sign) {
-    size_t empty_cells[9] {};
+    size_t empty_cells[aaa*aaa] {};
     const size_t kInvalidCellIdx = 42;
-    std::fill_n(empty_cells, 9, kInvalidCellIdx);
+    std::fill_n(empty_cells, aaa*aaa, kInvalidCellIdx);
     size_t last_empty_cell_idx = 0;
-    for (size_t i = 0; i < 9; i++) {
+    for (size_t i = 0; i < aaa*aaa; i++) {
         if (field.cells[i] == CellState::Empty) {
             empty_cells[last_empty_cell_idx] = i;
             last_empty_cell_idx++;
@@ -99,10 +111,11 @@ void processAiTurn(GameField& field, Sign ai_sign) {
         field.cells[target] = CellState::Empty;
     }
     size_t target = empty_cells[dist(mt)];
-    putSign(field, ai_sign, target / 3, target % 3);
+    putSign(field, ai_sign, target / aaa, target % aaa);
 }
 
 void processPlayerTurn(GameField& field, Sign player_sign) {
+
     std::cout << "Enter row and column: ";
 
     int row, column;
@@ -114,14 +127,14 @@ void processPlayerTurn(GameField& field, Sign player_sign) {
         std::cout << "Wrong input, please enter row and column of an empty cell: ";
         std::cin >> row >> column;
     }
-
+    
     putSign(field, player_sign, row - 1, column - 1);
 }
 
 void printField(const GameField& field);
 
 bool isDraw(const GameField& field) {
-    for (size_t i = 0; i < 9; i++) {
+    for (size_t i = 0; i < aaa*aaa; i++) {
         if (field.cells[i] != CellState::Empty) {
             return false;
         }
@@ -156,10 +169,10 @@ bool checkLine(const GameField& field, size_t start_row, size_t start_column, in
 
 TurnOutcome checkTurnOutcome(const GameField& field) {
     TurnOutcome outcome {};
-    for (size_t row = 0; row < 3; row++) {
+    for (size_t row = 0; row < aaa; row++) {
         CHECK_LINE(row, 0, 0, 1)
     }
-    for (size_t column = 0; column < 3; column++) {
+    for (size_t column = 0; column < aaa; column++) {
         CHECK_LINE(0, column, 1, 0)
     }
     CHECK_LINE(0, 0, 1, 1)
@@ -206,9 +219,9 @@ TurnOutcome runGameLoop(Sign player_sign) {
 
 void printField(const GameField& field) {
     std::cout << "=========\n";
-    for (size_t row = 0; row < 3; row++) {
+    for (size_t row = 0; row < aaa; row++) {
         std::cout << "||";
-        for (size_t column = 0; column < 3; column++) {
+        for (size_t column = 0; column < aaa; column++) {
             switch (getCell(field, row, column))
             {
             case CellState::Empty:
