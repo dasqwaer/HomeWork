@@ -1,0 +1,1091 @@
+mkdir HomeWork
+cd HomeWork
+mkdir hw1 hw2 hw3
+ls
+git clone git@github.com:dasqwaer/HomeWork.git
+sudo apt install git
+git clone git@github.com:dasqwaer/HomeWork.git
+ssh-keygen
+cd /home/ratmir/.ssh/
+ls
+cd /home/ratmir/.ssh/id_rsa.pub
+/home/ratmir/.ssh/id_rsa.pub
+cat /home/ratmir/.ssh/id_rsa.pub
+git clone git@github.com:dasqwaer/HomeWork.git
+git status
+cd
+cd HomeWork/
+git status
+ls
+cd hw1
+ls
+cd ..
+git init
+git clone git@github.com:dasqwaer/HomeWork.git
+git status
+ls
+cd ..
+rm -R HomeWork
+ls
+git clone git@github.com:dasqwaer/HomeWork.git
+cd HomeWork/
+ls
+git status
+git fetch
+git pull
+git branch
+git checkout hw1
+git pull
+git fetch
+git status
+git checkout hw2
+git pull
+git fetch
+git checkout test
+git pull
+ls
+cd hw2
+ls
+cd ..
+cd hw1
+git checkout hw1
+ls
+git checkout hw3
+ls
+cd hw3
+git pull
+git fetch
+ls
+mkdir hw3
+cd hw3
+cd /home/ratmir/.ssh/
+ls
+rm -R HomeWork
+git colone git@github.com:dasqwaer/KlassWork.git
+git clone git@github.com:dasqwaer/KlassWork.git
+cd KlassWork/
+ls
+git status
+git branch kw3
+git push
+git branch
+git checkout kw3
+git push
+git push --ser-upstream origin kw3
+git push --set-upstream origin kw3
+cd HomeWork/
+cd hw3
+git branch
+touch
+touch pr1.cpp
+gedit pr1.cpp
+xed pr1.cpp
+sudo apt install vscode
+sudo apt install code
+sudo apt install vcode
+sudo apt install VScode
+sudo apt install VSCode
+sudo apt-get install gcc g++ build-essential
+gcc --version
+sudo apt-get install clang
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+Sudo apt update
+sudo apt update
+sudo apt install code
+sudo apt list --upgradable
+s
+sudo apt upgradable
+sudo apt upgrade
+Qt Creator
+sudo apt install qtcreator
+sudo apt install eclipce
+sudo apt install eclipse
+sudo apt install default-jre
+sudo snap install --classic eclipse
+sudo apt install snapd
+sudo snap install --classic eclipse
+sudo apt install snapd
+sudo apt-get install snapd
+sudo apt update
+sudo apt-get install snapd
+cmake
+sudo apt-get install cmake
+project (hw3)
+cmake_minimum_required(VERSION 3.12)
+and_executable(main main.cpp)
+project (kw3)
+cmake_minimum_required(VERSION 3.12)
+and_executable(main main.cpp)
+project (kw3)
+cmake_minimum_required(VERSION 3.16)
+and_executable(main main.cpp)
+project (kw3)
+cmake_minimum_required(VERSION 3.12)
+add_executable(main main.cpp)
+project (kw3)
+cmake_minimum_required(VERSION 3.12)
+add_executable(main main.cpp)
+CMakeLists.txt
+cd build
+./main
+cd buils
+cd build
+./main
+add_executable(main foo.cpp main.cpp)
+project (kw3)
+cmake_minimum_required(VERSION 3.12)
+add_executable(main foo.cpp main.cpp)
+cd build
+./main_2
+./main
+./main_2
+build
+cd build
+./main3
+./main_3
+./main_4
+cd KlassWork
+cd kw3
+ls
+cd build
+ls
+git status
+cd ..
+git status
+git add .
+git commit -m "install cmake"
+git config list
+git config --list
+git config --global user.email "dasqwaer@gmail.com"
+git config --global user.name "dasqwaer"
+git config --list
+git status
+git commit -m "install cmake. tasks.json work"
+git push
+git status
+git add .
+git commit -m "error cmake"
+git push
+git status
+git commit -m "main work!"
+git add .
+git commit -m "main work!"
+git push
+git status
+git add.
+git add .
+git commit -m "Create foo.cpp. Extern x"
+git push
+cd ..
+cd HomeWork/
+cd hw3
+ls
+cat pr1.cpp
+git branch
+git status
+ls
+git status
+git add .
+git commit -m "Compled task 1 vs homework 3"
+/build ./main
+build ./main
+/build/main
+cd /build/./main
+cd /build./main
+cd build
+./main
+git push
+git status
+git add main_2
+git add pr2.cpp
+cd ..
+git add pr2.cpp
+git status
+git restore .
+git status
+git add .
+git commit -m "Compled task 2 vs homework 3. Create main_2, pr2.cpp"
+git push
+ls
+git status
+git restore
+git status
+git restore .
+giti status
+git status
+git add .
+git commit -m "Compled task 3 vs homework 3. Create main_3,file1.cpp,file2.h"
+git push
+git status
+git restore .
+git add .
+git commit -m "Compled task 4 vs homework 3. Create main_4, pr3.cpp"
+git push
+git merge
+git checkout master
+git log --oneline
+git checkout hw4
+cd ..
+git checkout hw4
+git status
+git checkout -b hw4
+git pull
+git fetch
+git pull
+git branch --set-upstream-to=origin/hw4 hw4
+git pull
+git log --oneline
+ls
+cd hw4
+ls
+cd build
+./main
+git status
+git restore
+git add .
+git commit -m "Compled task 1 vs homework 4. Create main_1,main1.cpp"
+ls
+cd ..
+ls
+git push
+git status
+git restore
+git add .
+git status
+git restore main1.cpp
+git status
+git restore --staged main1.cpp
+git status
+ls
+cat main.cpp
+cat main1.cpp
+git status
+git log --oneline
+git checkout master
+git branch
+git stash
+git status
+git log --oneline
+git reset 9016791
+git status
+git restore .
+git add .
+git status
+git commit -m "Compled task1 vs homework4. Create main_1,main1.cpp"
+git push 
+git push --forse
+git push -forse
+git stash pop
+git restore CMakeLists.txt
+git status
+git commit -m "Compled task2 vs homework4. Create main_2, main2.cpp"
+git push
+git status
+git restore .
+giti status
+git status
+git add .
+git commit -m "Compled task3 vs homework4. Create main_3,main3.cpp"
+git push
+git status
+git merge
+cd build
+./main
+./main_1
+./main_2
+cd build
+./main
+./main_3
+./main_1
+ls
+cd build
+ls
+./main_1
+./main_2
+./main_3
+cd HomeWork/
+ls
+git status
+git checkout -b hw5
+git push
+git push --set-upstream origin hw5
+ls
+mkdir hw5
+cd hw5
+touch task1.cpp
+xed task1.cpp
+git push
+git status
+ls
+cd build
+git status
+cd
+cd HomeWork/
+ls
+git status
+git add .
+git commit 
+git commit -m 
+git commit -m "Completed task1 of HomeWork 5. Create main_1, task1.cpp"
+git push
+git status
+git add .
+git status
+git commit -m "Completed task2 of HomeWork 5. Create main_2, task2.cpp"
+git push
+cd hw5
+ls
+git status
+git add .
+git commit -m "Completed task3 of HomeWork 5. Create main_3, task3.cpp"
+git push
+sudo apd get install mate-system-monitor
+sudo apt-get install mate-system-monitor
+./main_1
+ls
+build/./main_1
+cd build
+./main_1
+ls
+./main_1
+./main_2
+./main_3
+build/./main_1
+build/./main_2
+build/./main_1
+build/./main_2
+build/./main_1
+
+build/./main_2
+build/./main_1
+build/./main_2
+build/./main_3
+cd HomeWork/
+ls
+git status
+git checkout -b hw7
+git push
+git push --set-upstream origin hw7
+mkdir hw7
+cd hw7
+xed task1.cpp
+git status
+cd build
+git status
+cd ..
+ls
+git status
+git add .
+git commit -m "Completed task1 of HomeWork7.Create main_1,task1.cpp"
+git push
+git add .
+git commit -m "Completed task2 of HomeWork7.Create main_2,task2.cpp"
+git push
+git add .
+git commit -m "Completed task3 of HomeWork7.Create main_3,task3.cpp"
+git push
+git merge
+git status
+git checkout master
+git status
+git checkout -b hw6
+git push
+git push --set-upstream origin hw6
+mk dir hw6
+mkdir hw6
+mkdir hw6/build
+git checkout master
+git checkout hw6
+ls
+git status
+git add .
+git commit -m "Completed task1 of HomeWork6. Create task1.cpp, main_1. main_1 create File1.txt, File2.txt"
+git push
+git log --oneline
+git status
+git add .
+git commit -m "Completed task2 of HomeWork6. Create task2.cpp, main_2. main_2 appends File2.txt contents File1.txt"
+git status
+git push
+git status
+git add .
+git commit -m "Fixid task2 of HomeWork6"
+git push
+git status
+git add .
+git commit -m "Completed task3 of Home
+Work6. Create task3.cpp and main_3"
+git push
+git merge
+git checkout master
+git checkout hw5
+ls
+cd hw5
+ls
+git status
+git add .
+git commit -m "Completed task4 of HomeWork5. Create task4.cpp main_4"
+git push
+git status
+git add .
+git commit -m "Completed task5 of HomeWork5. Create task5.cpp main_5"
+git push
+git status 
+git add .
+git commit -m "Completed task6 of HomeWork5. Create peggi_func.cpp function.h task6.cpp main_6"
+git push
+git merge
+git checkout master
+build/./main_4
+build/./main_5
+ls
+dir
+build/./main_6
+build/./main
+build/./main
+cd HomeWork/
+ls
+git log --oneline
+git checkout -b hw8
+git push
+git push --set-upstream origin hw8
+mkdir hw8
+cd hw8
+touch nul_TTT.cpp
+cat nul_TTT.cpp
+xed nul_TTT.cpp
+git status
+cd ..
+git status
+git add .
+git status
+git restore
+git status
+git restore .
+git status
+git restore hw8/nul_TTT.cpp
+git status
+git restore hw8/nul_TTT.cpp --unstage
+git restore hw8/nul_TTT.cpp --stage
+git status
+git restore hw8/live_main_s.cpp --stage
+git status
+git restore .
+
+git status
+git commit -m "Add file live_main.cpp"
+git push
+git status
+git add .
+git commit -m "Fexid live_main.cpp"
+git push
+build/./main_1
+build/./main_1
+build/./main_1
+build/./main_1
+build/./main_1
+build/./main_1
+build/./main_1
+build/./main_1
+ls
+HomeWork
+cd HomeWork/
+mkdir basic_C
+cd basi
+cd basic_C/
+mkdir lesson1_3
+git checkout master
+git checkout -b bc1
+git push
+git push --set-upstream origin bc1
+touch firstProgram
+xed firstProgram
+gcc firstProgram.c
+ls
+./a.out
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+cd HO
+cd HomeWork/
+cd basic_C/
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+gcc firstProgram.c -o lesson1_3/Hello
+./lesson1_3/Hello
+git status
+ls
+git add .
+git status
+git commit -m "Completed HomeWork lesson1 basics C. Create file firstProgram.c and lesson1_3/Hello"
+git push
+mkdir lesson2
+cd lesson2
+touch secondProgram.c
+xed secondProgram.c
+gcc secondProgram.c -o range
+ls
+./range
+gcc secondProgram.c -o range
+./range
+cd HomeWork/
+cd basic_C/
+
+
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+
+./range
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+cd HomeWork/
+cd basic_C/
+cd lesson2
+gcc secondProgram.c -o range
+./range
+cd HomeWork/
+cd lesson2
+cd basic_C/
+cd lesson2
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+./range
+gcc secondProgram.c -o range
+./range
+touch secondProgram2.c
+xed secondProgram2.c
+gcc secondProgram2.c -o sum
+
+gcc secondProgram2.c -o sum
+./sum
+gcc secondProgram2.c -o sum
+./sum
+1
+./sum
+gcc secondProgram2.c -o sum
+./sum
+touch secondProgram3.c
+xed secondProgram3.c
+gcc secondProgram3.c -o thousand
+./thousand
+gcc secondProgram3.c -o thousand
+./thousand
+touch secondProgram4.c
+xed secondProgram4.c
+gcc secondProgram4.c -o triangle
+ls
+gcc secondProgram4.c -o triangle
+./triangle
+20
+./triangle
+gcc secondProgram4.c -o triangle
+./triangle
+gcc secondProgram4.c -o triangle
+./triangle
+git status
+git add .
+git status
+git commit -m "HomeWork lesson2 is completed"
+git push
+git merche
+git merge
+git checkout master
+cd 
+cd Proverka/
+cd BasicsC/Lesson2/
+ls
+gcc main.c -o main
+./main
+ls
+xed main.c
+./main
+ды
+ls
+gcc Les2hw.c
+ls
+./a.out
+
+./a.out
+xed Les2hw.c
+ls
+gcc HW2.1.c
+ls
+./a.out
+xed HW2.1.c
+gcc HW2.1_1.c
+./a.out
+gcc HW2.1_1.c
+./a.out
+ls
+gcc HW2.1_.c
+xed HW2.1_.c
+gcc HW2.1_1.c
+./a.out
+gcc HW2.1_1.c -o 1
+./1
+cat HW2.1_1.c
+xed HW2.1_1.c
+xed HW2.1.c
+xed HW2.1_.c
+gcc HW2.1_.c
+xed HW2.1_.c
+xed HW2.1.c
+cd
+cd HomeWork/
+git checkout
+git branch
+git checkout bc1
+cd basic_C/lesson
+cd basic_C/lesson2
+ls
+gcc rezultHW_BC1.c -o rezult
+./rezult
+git checkout master
+cd HomeWork/
+git checkout master
+git checkout -b bc2
+git push
+git push --set-upstream origin bc2
+cd basic_C/
+mkdir lesson3
+cd lesson3
+touch math.h
+xed math.h
+cd HomeWork/
+cd basic_C/lesson3
+xed math.h
+ды
+ls
+rm math.t
+rm math.h
+git status
+git branch
+git checkout hw8
+cd ..
+ls
+cd hw8
+ls
+xed live_main.cpp
+cd
+cd HomeWork/
+git checkout bc2
+cd basic_C/lesson3
+ls
+touch array.c
+xed array.c
+cat square.c
+ls
+toush converted_array.c
+touch converted_array.c
+xed converted_array.c 
+xed converted_array.c array.c Square.c
+touch rezultHw3_BC1.c
+xed rezultHw3_BC1.c
+rezultHw3_BC1.c -o rezult
+gcc rezultHw3_BC1.c -o rezult
+xed rezultHw3_BC1.c
+gcc rezultHw3_BC1.c -o rezult
+cd HomeWork/basic_C/lesson3
+ls
+gcc rezultHw3_BC1.c -o rezult
+gcc rezultHw3_BC1.c -o rezult -lm
+ls
+./rezult
+cd HomeWork/basic_C/lesson3
+git status
+git add .
+git status
+git commit -m "Completed homework 3 of basics C."
+git push
+git merge
+git master
+git checkout master
+cd ../
+cd ..//
+ls
+cd ..
+ls
+Proverka/
+cd Proverka/
+cd BasicsC/
+cd lesson3/
+ls
+cd les3hw/
+ls
+gcc Les3hw_1.c -o h1
+gcc Les3hw_1.c -o h1 -lm
+./h1
+gcc Les3hw_2.c -o h2
+./h2
+cd ..
+ls
+gss main.c -o main
+gcc main.c -o main
+gcc lesson4.c -o main
+gcc lesson4.c -o main -lm
+./main
+gcc lesson4.c -o main -lm
+./main
+gcc lesson4.c -o main -lm
+./main
+cd KlassWork/
+cd BC/
+ls
+gcc gets.c -o gets
+ls
+gets
+./gets
+git branch
+git checkout master
+git status
+git restore .
+git status
+git restore .
+
+git restore .
+git reset --hard HEAD
+git status
+git restore .
+git reset --hard
+git status
+git clean -df
+git status
+cd ..
+git status
+cd kw3
+git status
+ls
+git clean -xf
+git status
+git clean -df
+git status
+git clean -xf
+git clean -df
+git clean -n
+git clean -f -d -n
+git status
+git stach
+git stash
+git checkout master
+git status
+cd ..
+git status
+git stash
+git clean -n
+git clean -fx
+git status
+cd BC/
+touch gets
+touch gets.c
+xed gets.c
+gcc gets.c gets
+gcc gets.c -o gets
+./gets
+св
+cd
+cd HomeWork/basic_C/lesson2/
+ls
+./rezult
+cd HomeWork/
+cd basic_C/
+git branch bc2
+git checkout bc2
+cd lesson3
+./rezult
+/usr/bin/lsb_release -ircd
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" >> /etc/apt/sources.list'
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt update
+sudo apt install linux-headers-$(uname -r) dkms
+sudo apt update
+sudo apt-get remove virtualbox-*
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+$ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-get 
+sudo apt-get update
+sudo apt-get install virtualbox-6.0
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-6.0
+sudo apt-get remove virtualbox-*
+sudo apt-get virtualbox-*
+sudo apt-get virtualbox
+sudo apt virtualbox
+apt-get virtualbox
+apt-get virtualbox6.0
+sudo apt-get install virtualbox-6.0
+sudo apt install virtualbox-*
+sudo apt install virtualbox
+apt install virtualbox-ext-pack
+sudo apt install virtualbox
+sudo apt install virtualbox virtualbox-qt linux-headers-"$(uname -r)" dkms vde2 virtualbox-guest-additions-iso vde2-cryptcab
+sudo modprobe vboxdrv
+sudo apt-get remove virtualbox-*
+apt install virtualbox-ext-pack
+sudo modprobe vboxdrv
+sudo apt-get install virtualbox
+sudo apt-get install vboxdrv
+sudo modprobe vboxdrv
+sudo modprobe vboxpci
+sudo apt install vboxdrv
+virtualbox
+apt install vboxsvr
+sudo apt -f install
+apt install --reinstall dkmz
+apt install --reinstall virtualbox-dkmz
+apt install --reinstall virtualbox-dkms
+sudo systemctl status vboxdrv
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian focal contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+sudo apt update
+sudo systemctl status vboxdrv
+sudo apt install -y virtualbox-6.1
+sudo systemctl status vboxdrv
+/usr/lib/virtualbox/vboxdrv.sh
+/usr/lib/virtualbox/vboxdrv.sh {start}
+cd /usr/lib/virtualbox/vboxdrv.sh
+
+ls
+cat vboxdrv.sh
+sudo /sbin/vboxconfig
+sudo systemctl status vboxdrv
+virtualbox
+sudo apt install linux-headers-$(uname -r) dkms
+sudo apt install --reinstall linux-headers-$(uname -r) dkms
+sudo systemctl status vboxdrv
+sudo apt update
+apt list --upgradable
+sudo apt upgradeble
+apt upgradable
+apt upgrade
+sudo modprobe vboxdrv
+sudo systemctl status vboxdrv
+sudo apt-get autoremove virtualbox-dkms
+sudo systemctl status vboxdrv
+sudo modprobe vboxdrv
+sudo apt-get install build-essential linux-headers-`uname -r` dkms virtualbox-dkms
+sudo modprobe vboxdrv
+sudo /etc/init.d/vboxdrv setup
+sudo apt-get install dkms
+sudo /etc/init.d/vboxdrv setup
+cd
+ls
+cd /etc
+cd init.d
+ls
+./virtualbox
+virtualbox
+sudo /sbin/vboxconfig
+sudo virtualbox
+sudo modprobe vboxdrv
+sudo apt-get remove virtualbox-dkms
+sudo apt-get remove --purge virtualbox-dkms
+sudo apt-get remove virtualbox-*
+sudo apt remove linux-headers-$(uname -r) dkms
+sudo apt-get install -y linux-headers-amd64 linux-image-amd64
+sudo apt install --reinstall linux-headers-$(uname -r) virtualbox-dkms dkms
+cd etc/init.d/vboxdrv
+cd etc/init.d/
+cd etc/
+cd
+cd etc/
+ls
+cd ..
+cd etc
+cd init.d
+cd vboxdrv
+ls
+cd virtualbox
+sudo modprobe vboxdrv
+vboxnetflt
+sudo /sbin/vboxconfig
+cd
+sudo /sbin/vboxconfig
+cd ~
+sudo /sbin/vboxconfig
+cd 
+ls
+cd 
+ls
+cd ..
+ls
+cd ..
+ls
+cd bin
+ls
+cd Virtualbox
+cd virtualbox
+./virualbox
+./virtualbox
+./VirtualBox
+cd ..
+cd sbin
+vbox
+config
+cd vboxconfig
+./vboxconfig
+virtualbox
+cd .config
+ls
+cd VirtualBox
+ls
+cp VBoxGuestAdditions_6.1.16.iso /home/ratmir
+cd ..
+ls
+ssh sergiy@192.168.1.2
+ping 10.0.2.15
+ssh terracota@10.0.2.15
+ssh terracota@ubuntuserver
+ssh terracota@10.0.2.15
+ssh terracota@192.168.0.8
+ping 192.168.0.8
+cd HomeWork/
+ls
+cd basic_C/
+cd lesson4/
+ls
+gss sqrt.c -o sqrt
+gcc sqrt.c -o sqrt
+gcc sqrt.c -o sqrt -lm
+./sqrt
+cd lesson4/
+cd HomeWork/basic_C/lesson4/
+gcc sqrt.c -o sqrt -lm
+./sqrt
+gcc sqrt.c -o sqrt -lm
+./sqrt
+gcc sqrt.c -o sqrt -lm
+./sqrt
+d
+./sqrt
+gcc sqrt.c -o sqrt -lm
+./sqrt
+cd HomeWork/
+cd basic_C/
+cd  lesson4
+gcc rezul.c -o rezul
+gcc rezul.c -o rezul -lm
+./rezul
+gcc rezul.c -o rezul -lm
+./rezul
+gcc rezul.c -o rezul -lm
+./rezul
+128
+./rezul
+gcc rezul.c -o rezul -lm
+./rezul
+gcc rezul.c -o rezul -lm
+cd HomeWork/basic_C/lesson4
+gcc rezul.c -o rezul -lm
+./rezul
+cd HomeWork/basic_C/lesson4
+ls
+cd ..//
+cd ..
+cd Proverka/BasicsC/lesson4
+ls
+gcc main(1).c
+gcc main.c
+gcc main.c -lm
+./a.out
+11
+2
+./a.out
+cd Proverka/BasicsC/lesson4
+./a.out
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+gcc main1.c -o  main -lm
+./main
+./main13
+./main
+gcc main1.c -o  main -lm
+./main
+pwd
+cd /usr/local/bin
+cd Загрузки
+ды
+ls
+cd Download
+cd ~
+ls
+cd Загрузки
+ls -l
+ls -a
+hystory
+hystori
+history
+sudo apt install vib -y
+sudo apt install vim -y
+vim
+vim myfile
+nano myfile
+systemctrl status sshd
+systemctl status sshd
+sudo apt install openssh-server -y
+systemctl status sshd
+ssh-copy-id terracota@10.0.2.15
+SSH terracota@10.0.2.15
+ssh-copy-id terracota@192.168.0.8
+SSH terracota@192.168.0.8
+ssh terracota@192.168.0.8
+cd
+cd HomeWork/basic_C/lesson2
+./rezult
+cd HomeWork/basic_C/lesson2
+ls
+gcc rezultHW_BC1.c -o rex
+./rex
+gcc rezultHW_BC1.c -o rex
+./rex
+gcc rezultHW_BC1.c -o rex
+cd HomeWork/basic_C/lesson2
+gcc rezultHW_BC1.c -o rex
+./rex
