@@ -1,0 +1,1006 @@
+ 1322  cd /home/ratmir/Homework/Linux/hw5
+ 1323  ln -sf ~HomeWork/Linux/hw5/1/file25 2/file15 
+ 1324  cat 2/file15
+ 1325  cat ~HomeWork/Linux/hw5/1/file25
+ 1326  cd /home/ratmir/HomeWork/Linux/hw6/1
+ 1327  cd 
+ 1328  ls
+ 1329  cd ..//
+ 1330  cd ..
+ 1331  ls
+ 1332  cd ..
+ 1333  ls
+ 1334  cd home/
+ 1335  ls
+ 1336  cd ratmir/
+ 1337  ls
+ 1338  cd /home/ratmir/HomeWork/Linux/hw5
+ 1339  cat /home/ratmir/HomeWork/Linux/hw5/1/file25
+ 1340  ln /home/ratmir/HomeWork/Linux/hw5/1/file25 2/file15
+ 1341  ln -sf /home/ratmir/HomeWork/Linux/hw5/1/file25 2/file15
+ 1342  cat 2/file 15
+ 1343  cat 2/file15
+ 1344  ls -li 2
+ 1345  ln -sf ~/HomeWork/Linux/hw5/1/file25 2/file15
+ 1346  ls -li 21
+ 1347  ln -sr 2/file15 2/file3
+ 1348  ln -sri 2/file15 2/file3
+ 1349  ls -li 2
+ 1350  cat 2/file3
+ 1351  cp 2/file3,2/file15 6
+ 1352  cp 2/file3 2/file15 6
+ 1353  ls -li 6
+ 1354  cat 6/file3
+ 1355  cat 6/file15
+ 1356  cp 2/file3 2/file15 1
+ 1357  ls -li 1
+ 1358  xargs cat
+ 1359  ls 1*|xargs cat
+ 1360  ls 1*|seg -s/^/\/etc\/|xargs cat
+ 1361  ls 1*|sed -s/^/\/etc\/|xargs cat
+ 1362  ls 1*|sed -s/^/\/etc\//|xargs cat
+ 1363  ls 1*|sed s/^/\/etc\//|xargs cat
+ 1364  ls 1*|sed 's/^/\/etc\//'|xargs cat
+ 1365  pwk
+ 1366  pwd
+ 1367  ls 1*|sed 's/^/\/home/ratmir/HomeWork/Linux/hw5\//'|xargs cat
+ 1368  ls 1*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\/1\//'|xargs cat
+ 1369  ls -li 1
+ 1370  mkdir 3| mv 1/file15 1/file3 3
+ 1371  ls -li 1'
+ 1372  '
+ 1373  ls -li 1
+ 1374  ls 1*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\/3\//'|xargs cat
+ 1375  ls 3*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\/3\//'|xargs cat
+ 1376  ls -li  3
+ 1377  sudo chmod u+r 6
+ 1378  ls -li 6
+ 1379  mv 2/file3 2/file15 1
+ 1380  ls -li 2
+ 1381  ls -li 1
+ 1382  ln -sr 1/file4 2/file1
+ 1383  ls -li 2
+ 1384  ln -sr 1/file4 ~/Рабочий\стол/fil1
+ 1385  ln -sr 1/file4 ~/Рабочий\ стол/fil1
+ 1386  ls -li ~/Рабочий\ стол
+ 1387  ln -sr ~/Рабочий\ стол/Домашнее\ задание\ №4.odt 1/file1
+ 1388  ls -li 1
+ 1389  file1
+ 1390  1/file1
+ 1391  cat 1/file1
+ 1392  ./1/file1
+ 1393  ls -li 1
+ 1394  cd 1
+ 1395  ls
+ 1396  file1
+ 1397  ./file1
+ 1398  ./file2
+ 1399  odt file1
+ 1400  cd ..
+ 1401  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\hw5\///'|xargs ls -li
+ 1402  ls ../hw5*
+ 1403  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\hw5\//'|xargs ls -li
+ 1404  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1405  mv 2/file1 3
+ 1406  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1407  cat 3 file1
+ 1408  cat 3/file1
+ 1409  ln -s 2/file16 2/file1
+ 1410  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1411  cat 2/file1
+ 1412  ln -si file16 2/file1
+ 1413  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1414  cat 2/file1
+ 1415  ln -sir file16 2/file1
+ 1416  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1417  cat 2/file1
+ 1418  ls -li 2
+ 1419  ln -sir 2/file16 2/file1
+ 1420  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1421  cat 2/file1
+ 1422  mv 2/file1 3
+ 1423  ls -li 3
+ 1424  sudo chmod u-r 6
+ 1425  ls ../hw5*|sed 's/^/\/home\/ratmir\/HomeWork\/Linux\/hw5\//'|xargs ls -li
+ 1426  ls -li 3
+ 1427  ln -s /home/ratmir/HomeWork/Linux/hw5/2/file16 3/file2
+ 1428  ls -li 3
+ 1429  rm -r 3
+ 1430  mkdir 3| touch 3/file1 3/file2
+ 1431  ls
+ 1432  ls -li 3
+ 1433  touch 3/file1 3/file2
+ 1434  touch 4/file1 4/file2 | mkdir 4
+ 1435  mkdir 4 | touch 4/file1 4/file2
+ 1436  ls -li 4
+ 1437  rm -r 4
+ 1438  touch 4/file1 4/file2 | mkdir 4
+ 1439  ls -li 4
+ 1440  chmod 660 1/file1
+ 1441  chmod 600 1/file1
+ 1442  ls -li 3
+ 1443  chmod 600 3/file2
+ 1444  chmod 660 3/file1
+ 1445  ls -li 3
+ 1446  chmod 664 3/file1
+ 1447  ls -li 3
+ 1448  chmod rw-rw-r-- 3/file1
+ 1449  chmod -rw-rw-r-- 3/file1
+ 1450  chmod -rw------- 3/file2
+ 1451  ls -li 3
+ 1452  cat 3/file`
+ 1453  `
+ 1454  cat 3/file1
+ 1455  chmod u=rw,go=- 3/file2
+ 1456  ls -li 3
+ 1457  chmod ug=rw,o=r 3/file2
+ 1458  ls -li 3
+ 1459  chmod u=rw,go=- 3/file2
+ 1460  chmod ug=rw,o=r 3/file1
+ 1461  ls -li 3
+ 1462  chmod 664 3/file1
+ 1463  chmod 600 3/file2
+ 1464  ls -li 3
+ 1465  mkdir 4 | mkdir 4/share
+ 1466  ls -li 4
+ 1467  rm 4/file1 4/file2
+ 1468  ls -li 4
+ 1469  addgroup developer
+ 1470  sudo addgroup developer
+ 1471  cat /etc/passwd
+ 1472  cat /etc/passwd | grep sh
+ 1473  sudo usermod -aG developer tuser1, slon, ratmir
+ 1474  sudo usermod -aG developer tuser1
+ 1475  sudo usermod -aG developer slon
+ 1476  sudo usermod -aG developer ratmir
+ 1477  members developer
+ 1478  ls -l 4
+ 1479  chown :developer 4
+ 1480  sudo chown :developer 4
+ 1481  ls -l 4
+ 1482  sudo chown slon:developer 4
+ 1483  ls -l 4
+ 1484  sudo chown :developer ~/HomeWork/Linux/hw5/4
+ 1485  ls -l 4
+ 1486  ls -l ../hw5
+ 1487  sudo chown -:developer ~/HomeWork/Linux/hw5/4
+ 1488  sudo chown "":developer ~/HomeWork/Linux/hw5/4
+ 1489  ls -l ../hw5
+ 1490  chmod 060 ../hw5
+ 1491  ls -l ../hw5
+ 1492  ls
+ 1493  chmod 460 ../hw5
+ 1494  sudo chmod 460 ../hw5
+ 1495  ls
+ 1496  ls -l ../hw5
+ 1497  sudo ls -l ../hw5
+ 1498  sudo ls -l ../../hw5
+ 1499  sudo ls -l ../../Linux
+ 1500  sudo chmod 775 ../hw5
+ 1501  sudo ls -l ../../Linux
+ 1502  sudo chmod 460 4
+ 1503  ls -li 4
+ 1504  sudo -u slon -li 4
+ 1505  sudo -u tuser1 -li 4
+ 1506  sudo -u tuser1
+ 1507  sudo -u tuser1 ls
+ 1508  sudo -u slon ls -li 4
+ 1509  sudo -u slon ls -li ../hw5
+ 1510  sudo chmod 560 4
+ 1511  sudo -u slon ls -li 4
+ 1512  touch 4/test1
+ 1513  sudo -u slon touch 4/test1
+ 1514  members developer
+ 1515  sudo chmod 570 4
+ 1516  sudo -u slon touch 4/test1
+ 1517  sudo chmod 2570 4
+ 1518  sudo -u slon touch 4/test1
+ 1519  sudo -u slon ls -li 4
+ 1520  sudo -u slon ls -li ../hw5
+ 1521  sudo -u slon ls -l ../hw5
+ 1522  sudo chmod 0576 4
+ 1523  sudo -u slon touch 4/test1
+ 1524  touch 4/test
+ 1525  ls 4
+ 1526  ls -li ../hw5
+ 1527  sudo chmod g+x 4
+ 1528  ls -li ../hw5
+ 1529  rm -r 4
+ 1530  sudo rm -r 4
+ 1531  mkdir 4
+ 1532  sudo chmod :developer
+ 1533  sudo chmod :developer 4
+ 1534  history
+ 1535  sudo chown :developer 4
+ 1536  ls -li ../hw5
+ 1537  touch 4/test1
+ 1538  chmod 575 4
+ 1539  ls -li 4
+ 1540  ls -li ../hw5
+ 1541  touch 4/test2
+ 1542  cat /etc/passwd | grep sh
+ 1543  cat /etc/group | grep deve
+ 1544  echo "Some content" >> 4/test1
+ 1545  cat 4/test1
+ 1546  cp 4/test1 4/test2
+ 1547  groups ratmir
+ 1548  sudo chgrp 4 developer
+ 1549  sudo chgrp developer 4
+ 1550  ls -li ../hw5
+ 1551  cp 4/test1 4/test2
+ 1552  sudo -u slon cp 4/test1 4/test2
+ 1553  sudo -u tuser1 touch mimo
+ 1554  members developer
+ 1555  groups tuser1
+ 1556  groups slon
+ 1557  cp 4/test1 4/ratmir
+ 1558  sudo chown test 4
+ 1559  sudo chown nouser 4
+ 1560  sudo chown root 4
+ 1561  ls -li ../hw5
+ 1562  cp 4/test1 4/ratmir
+ 1563  sudo -u tuser1 touch mimo
+ 1564  sudo -u slon touch mimo
+ 1565  sudo -u slon mkdir mimo
+ 1566  ls -li 4
+ 1567  cd HomeWork/Linux/hw5
+ 1568  ls -li ../hw5
+ 1569  cp 4/test1 4/ratmir
+ 1570  touch 4/ratmer
+ 1571  sudo -u slon touch 4/pesti
+ 1572  ls -li 4
+ 1573  adduser test
+ 1574  sudo adduser test
+ 1575  sudo -u test touch 4/mytest
+ 1576  sudo -u test touch 5/mytest
+ 1577  sudo -u test mkdir 5
+ 1578  sudo -u test mkdir ../5
+ 1579  cd ../hw4
+ 1580  sudo -u test mkdir 5
+ 1581  cd ..
+ 1582  ls -li 
+ 1583  sudo -u ls -a hw/5
+ 1584  sudo -u test ls -a hw5/5
+ 1585  sudo -u test ls -a hw5/4
+ 1586  sudo usermod -aG ratmir test
+ 1587  sudo -u test mkdir 5
+ 1588  cd hw5
+ 1589  sudo -u test mkdir 4/testt
+ 1590  sudo -u test mkdir 5
+ 1591  ls -li 4
+ 1592  ls -li
+ 1593  sudo addgroup testdevelop
+ 1594  usermod -aG testdevelop test
+ 1595  sudo usermod -aG testdevelop test
+ 1596  sudo usermod -aG testdevelop slon
+ 1597  sudo usermod -aG testdevelop tuser1
+ 1598  members testdevelop
+ 1599  sudo chgrp testdevelop 5
+ 1600  touch 5/ratmir
+ 1601  sudo -u test touch 5/ratmir
+ 1602  sudo -u slon touch 5/ratmir
+ 1603  sudo -u slon touch 5/slon
+ 1604  sudo -u tuser1 touch 5/gon
+ 1605  sudo -u test  mv 5/ratmir 5/test
+ 1606  ls 5
+ 1607  ls -i 5
+ 1608  ls -li 5
+ 1609  ls -li
+ 1610  ls 5
+ 1611  rm 5/gon
+ 1612  sudo -u test rm t/gon
+ 1613  sudo -u test rm 5/gon
+ 1614  ls 5
+ 1615  ls 4
+ 1616  rm pesti
+ 1617  rm 4/pesti
+ 1618  ls 4
+ 1619  sudo -u slon mkdir 4/share 5/share
+ 1620  sudo chmod -t 4/share 5/share
+ 1621  sudo -u slon touch 4/share/ratmir 5/share/ratmir
+ 1622  ls -li 4 
+ 1623  sudo chgroup developer 4/share 5/share
+ 1624  sudo chgrp developer 4/share 5/share
+ 1625  ls -li 4 
+ 1626  sudo chmod g+w 4/share 5/share
+ 1627  touch 4/share/rat 5/share/rat
+ 1628  sudo -u test touch 4/share/test 5/share/test
+ 1629  sudo -u slon touch 4/share/slon 5/share/slon
+ 1630  sudo -u tuser1 touch 4/share/tuser1 5/share/tuser1
+ 1631  ls -li 4/share t/share
+ 1632  ls -li 4/share 5/share
+ 1633  rm t/share/slon
+ 1634  rm 5/share/slon
+ 1635  ls -li 4 5
+ 1636  sudo chmod -t 4/share 5/share
+ 1637  ls -li 4 5
+ 1638  ls -l 4 5
+ 1639  sudo chmod +t 4/share 5/share
+ 1640  ls -li 4 5
+ 1641  ls -li 4/share 5/share
+ 1642  rm 4/share/slon
+ 1643  sudo -u slon rm 4/share/slon
+ 1644  sudo -u slon rm 4/share/rat
+ 1645  ls -li 4/share 5/share
+ 1646  sudo -u tuser1 rm 4/share/rat
+ 1647  sudo -u tuser1 rm 5/share/rat
+ 1648  rm 5/share/rat
+ 1649  sudo vi /usr/local/bit/script.sh
+ 1650  sudo vi /usr/local/bin/script.sh
+ 1651  history
+ 1652  cat /etc/*
+ 1653  cat /etc/* 2> text
+ 1654  xet text
+ 1655  xed text
+ 1656  cat /etc/* 1> text
+ 1657  xed text
+ 1658  cat /home/*
+ 1659  cat /home/ratmir/*
+ 1660  cat /home/ratmir/Загрузки/*
+ 1661  id
+ 1662  $
+ 1663  #!/bin/bash
+ 1664  a=$1 #присваиваем переменной a значение переменной подстановки $1, используем как параметр
+ 1665  #проверяем, что параметр задан
+ 1666  if [ -z $a ];    then        echo "Error" #если строка пустая, сообщаем об ошибке
+ 1667         exit # завершаем скрипт
+ 1668    else       echo $a # в противном случае выводим на экран значение параметра
+ 1669  fi
+ 1670  crontabl
+ 1671  crontab l
+ 1672  crontab -l
+ 1673  crontab one
+ 1674  cat /etc/crontab
+ 1675  cat var/spool/cron
+ 1676  cat /var/spool/cron
+ 1677  cat /var/spool/cron/*
+ 1678  sudo cat /var/spool/cron/*
+ 1679  sudo cat /var/spool/cron/crontabs
+ 1680  sudo cat /var/spool/cron/crontabs/*
+ 1681  ls /var/spool/cron/crontabs
+ 1682  sudo ls /var/spool/cron/crontabs
+ 1683  sudo ls /var/spool/cron/
+ 1684  cat /etc /cron.d
+ 1685  cat /etc/cron.d
+ 1686  cat /etc/cron.d/*
+ 1687  crontab
+ 1688  crontab ratmir_one
+ 1689  cron
+ 1690  crontab -e
+ 1691  crontab -l
+ 1692  crontab -e
+ 1693  crontab -l
+ 1694  tail -f /var/log/testcron.log
+ 1695  cat /usr/local/bin/script.sh
+ 1696  sudo tail -f /var/log/testcron.log
+ 1697  cd /var/log
+ 1698  ls
+ 1699  sudo chmod ugo+x usr/local/bin/script.sh
+ 1700  sudo chmod ugo+x /usr/local/bin/script.sh
+ 1701  tail -f /var/log/testcron.log
+ 1702  ./usr/local/bin/script.sh
+ 1703  /usr/local/bin/./script.sh
+ 1704  sudo /usr/local/bin/./script.sh
+ 1705  ls
+ 1706  tail -f /var/log/testcron.log
+ 1707  cat /usr/local/bin/script.sh
+ 1708  crontab -l
+ 1709  tail -f /var/log/testcron.log
+ 1710  crontab -e
+ 1711  tail -f /var/log/testcron.log
+ 1712  crontab -e
+ 1713  crontab -l
+ 1714  tail -f /var/log/testcron.log
+ 1715  crontab -e
+ 1716  tail -f /var/log/testcron.log
+ 1717  crontag -r
+ 1718  crontab -r
+ 1719  crontab -l
+ 1720  tr x z
+ 1721  tr [:lower][:upper]
+ 1722  tr :lower :upper
+ 1723  tr x-z X-Z
+ 1724  tr a-z A-Z
+ 1725  echo "sldkjflkj" | tr a-z A-Z
+ 1726  echo "sldkjflkj" | tr a-z y-Z
+ 1727  echo "sldkjflkj" | tr a-z Y-Z
+ 1728  echo "sldkjyflkj" | tr a-z Y-Z
+ 1729  echo "sldkj1yflkj" | tr a-z Y-Z
+ 1730  echo "sldkj1yflkj" | tr a-z X-Z
+ 1731  echo "sldkj1yzflkj" | tr a-z X-Z
+ 1732  echo "sldkj1yzflkYj" | tr a-z X-Z
+ 1733  echo "sldkj1yzfBlkYj" | tr a-z X-Z
+ 1734  echo "sldkj1yzfBlkYj" | tr a-z X-R
+ 1735  echo "sldkj1yzfBlkYj" | tr a-z X-Y
+ 1736  echo "sldkj1yzfBlkYj" | tr a-z X-X
+ 1737  echo "sldkj1yzfBlkYj" | tr a-z B-X
+ 1738  echo "abcdefghijklmnop" | tr a-z B-X
+ 1739  echo "abcdefghijklmnop" | tr a-z B-Z
+ 1740  cut -f
+ 1741  ls -al /etc/ | cut -f 1
+ 1742  ls -al /etc/ | cut -f k1
+ 1743  ls -al /etc/ | cut -f 
+ 1744  ls -al /etc/ | cut -f -1
+ 1745  ls -al /etc/ | cut -f -5
+ 1746  ls -al /etc/ | cut -f 5
+ 1747  ls -al /etc/ | cut -f 5-
+ 1748  ls -al /etc/ | cut -f 125-
+ 1749  ls -al /etc/ | cut -f -125
+ 1750  ls -al /etc/ | cut -d -f -125
+ 1751  ls -al /etc/ | cut -d "" -f -1
+ 1752  ls -al /etc/ | cut -d "" -f 1
+ 1753  ls -al /etc/ | cut -d "" -f 12
+ 1754  ls -al /etc/ | cut -d "" -f 12-
+ 1755  ls -al /etc/ | cut -d "" -f 12
+ 1756  ls -al /etc/ | cut -d "" -f 12-
+ 1757  ls -al /etc/ | cut -d " " -f 12-
+ 1758  ls -al /etc/ | cut -d " " -f 1-
+ 1759  ls -al /etc/ | cut -d " " -f 4-
+ 1760  ls -al /etc/ | cut -d " " -f 2-
+ 1761  ls -al /etc/ | cut -d " " -f 1-
+ 1762  ls -al /etc/ | cut -d " " -f -1
+ 1763  ls -al /etc/ 
+ 1764  ls -al /etc/ | cut -d " " -f -1
+ 1765  ls -al /etc/ 
+ 1766  ls -al /etc/ | cut -d " " -f -1
+ 1767  ls -al /etc/ | cut -d " " -f 1
+ 1768  ls -al /etc/ | cut -d " " -f 1-
+ 1769  ls -al /etc/ | cut -d " " -f 12-
+ 1770  ls -al /etc/ | cut -d " " -f 1-
+ 1771  ls -al /etc/ | cut -d " " -f 12-
+ 1772  ls -al /etc/ | cut -d "" -f 12-
+ 1773  ls -al /etc/ | cut -d "" -f 12
+ 1774  ls -al /etc/ | cut -d "" -f 1
+ 1775  ls -al /etc/ | cut -d '' -f 2
+ 1776  ls -al /etc/ | cut -d '' -f 2-
+ 1777  ls -al /etc/ | cut -d ' ' -f 2-
+ 1778  ls -al /etc/ | cut -d ' ' -f -2
+ 1779  ls -al /etc/ | cut -d ' ' -f 2
+ 1780  ls -al /etc/ | cut -d ' ' -f 1
+ 1781  ls -al /etc/ | cut -d ' ' -f 1-
+ 1782  ls -al /etc/ | cut -d ' ' -f 3-
+ 1783  ls -al /etc/ | cut -d '-' -f 1
+ 1784  ls -al /etc/ | cut -d '-' -f 3
+ 1785  ls -al /etc/ | cut -d '-' -f 5
+ 1786  ls -al /etc/ | cut -d '-' -f 1-
+ 1787  ls -al /etc/ | cut -d '-' -f 2-
+ 1788  sudo apt get vuze
+ 1789  sudo apt get install vuze
+ 1790  sudo apt-get install vuze
+ 1791  vuze
+ 1792  cd
+ 1793  sudo apt-get install vuze
+ 1794  biglybt
+ 1795  sudo apt-get sparkle
+ 1796  sudo apt-get install sparkle
+ 1797  cd Загрузки/
+ 1798  cat /home/*
+ 1799  ls
+ 1800  Innocent_Witches/
+ 1801  cd Innocent_Witches/
+ 1802  ls
+ 1803  cd Innocent_Witches-0.6.5-final-pc/
+ 1804  ls
+ 1805  ./Innocent\ Witches.sh 
+ 1806  cd
+ 1807  clear
+ 1808  cd Innocent_Witches-0.6.5-final-pc/
+ 1809  cd Innocent_Witches/
+ 1810  cd Загрузки/Innocent_Witches/Innocent_Witches-0.6.5-final-pc/
+ 1811  ./Innocent\ Witches.sh 
+ 1812  cd 
+ 1813  clear
+ 1814  cd HomeWork/Linux/
+ 1815  mkdir hw6
+ 1816  cd hw6
+ 1817  touch 1
+ 1818  echo "echo "/bin/bash" >> 1
+ 1819  >
+ 1820  1
+ 1821  "
+ 1822  echo "echo "\/bin\/bash" >> 1
+ 1823  "
+ 1824  echo "\/bin\/bash" >> 1
+ 1825  "
+ 1826  "
+ 1827  echo "\/bin\/bash" >> 1
+ 1828  cat 1
+ 1829  echo "/bin/bash" > 1
+ 1830  cat 1
+ 1831  echo "echo "/bin/bash" > 1
+ 1832  "
+ 1833  vim 1
+ 1834  cat 1
+ 1835  echo "/bin/bash" > 2
+ 1836  cat 2
+ 1837  cd HomeWork/Linux/hw6
+ 1838  ls
+ 1839  cat 1
+ 1840  xed 1
+ 1841  mv 1 1.sh
+ 1842  sh 1.sh 2
+ 1843  ls
+ 1844  cat 1.sh
+ 1845  ls -l
+ 1846  chmod u+x 1.sh
+ 1847  ls -l
+ 1848  sh 1.sh 2
+ 1849  ./1.sh 2
+ 1850  cat 2
+ 1851  xed 1.sh
+ 1852  ./1.sh 2
+ 1853  sh 1.sh 2
+ 1854  xed 1.sh
+ 1855  xed 1.sh
+ 1856  sh 1.sh 2
+ 1857  cd HomeWork/Linux/hw6
+ 1858  sh 1.sh 2 4
+ 1859  touch 4
+ 1860  sh 1.sh 2 4
+ 1861  ./1.sh 2 4
+ 1862  xed 1.sh
+ 1863  ./1.sh 2 4
+ 1864  cat 4
+ 1865  xed 2
+ 1866  xed 1.sh
+ 1867  ./1.sh 2 4
+ 1868  xed 1.sh
+ 1869  ./1.sh 2 4
+ 1870  xed 1.sh
+ 1871  ./1.sh 2 4
+ 1872  cat 4
+ 1873  cat 2
+ 1874  ./1.sh 2 4
+ 1875  xed 1.sh
+ 1876  ./1.sh 2 4
+ 1877  cat 4
+ 1878  xed 1.sh
+ 1879  ./1.sh 2 4 3
+ 1880  xed 1.sh
+ 1881  ./1.sh 2 4 3
+ 1882  cat 3
+ 1883  cat 4
+ 1884  cat 2
+ 1885  xed 1.sh
+ 1886  ./1.sh 2 4
+ 1887  cat 4
+ 1888  xed 1.sh
+ 1889  ./1.sh 2 4
+ 1890  cat 4
+ 1891  cat 2
+ 1892  cat 1
+ 1893  cat 1.sh
+ 1894  xed 1.sh
+ 1895  ./1.sh 2 4
+ 1896  cat 4
+ 1897  xed 4
+ 1898  xed 2
+ 1899  ./1.sh 2 4
+ 1900  cat 4
+ 1901  xed 4
+ 1902  xed 1.sh
+ 1903  ./1.sh 2 4
+ 1904  cat 4
+ 1905  cat 2
+ 1906  cat 4
+ 1907  xed 4
+ 1908  xed 1.sh
+ 1909  ./1.sh 2 4
+ 1910  cat 4
+ 1911  xed 1.sh
+ 1912  ./1.sh 2 4
+ 1913  cat 4
+ 1914  xed 1.sh
+ 1915  ./1.sh 2 4
+ 1916  cat 4
+ 1917  xed 1.sh
+ 1918  ./1.sh 2 4
+ 1919  cat 4
+ 1920  xed 1.sh
+ 1921  ./1.sh 2 4
+ 1922  cat 4
+ 1923  xed 1.sh
+ 1924  ./1.sh 2 4
+ 1925  cat 4
+ 1926  xed 1.sh
+ 1927  ./1.sh 2 4
+ 1928  cat 4
+ 1929  xed 1.sh
+ 1930  ./1.sh 2 4
+ 1931  cat 4
+ 1932  xed 1.sh
+ 1933  ./1.sh 2 4
+ 1934  xed 1.sh
+ 1935  ./1.sh 2 4
+ 1936  xed 1.sh
+ 1937  ./1.sh 2 4
+ 1938  xed 1.sh
+ 1939  ./1.sh 2 4
+ 1940  cat 4
+ 1941  xed 1.sh
+ 1942  ./1.sh 2 4
+ 1943  cat 4
+ 1944  xed 1.sh
+ 1945  ./1.sh 2 4
+ 1946  cat 4
+ 1947  ./1.sh /etc/passwd 4
+ 1948  cat 4
+ 1949  cat /etc/passwd
+ 1950  xed /etc/passwd
+ 1951  ./1.sh /etc/passwd 4
+ 1952  cat 4
+ 1953  tr -d 
+ 1954  cd HomeWork/Linux/hw6
+ 1955* 
+ 1956  cd ..
+ 1957  ls
+ 1958  cd ..
+ 1959  cat /Linux/*
+ 1960  ls
+ 1961  cat Linux/*
+ 1962  cat f1
+ 1963  cat Linux/f1
+ 1964  cd Linux/hw6
+ 1965  cp ../f1 hw6
+ 1966  ./1.sh f1 4
+ 1967  ls
+ 1968  cp ../f1 f1
+ 1969  ./1.sh f1 4
+ 1970  cat 4
+ 1971  cat f1
+ 1972  tail -15 f1
+ 1973  tail -15 4
+ 1974  ./1.sh f1 4
+ 1975  tail -15 f1
+ 1976  ./1.sh f1 4
+ 1977  tail -15 f1
+ 1978  tail -15 4
+ 1979  mkdir -p test/2010/{январь..декабрь}/{1..12}
+ 1980  ls test/2010
+ 1981  ls test/2010/\{январь..декабрь\}/
+ 1982  mkdir -p test/2010..2017/{1..12}/{1..12}
+ 1983  ls test/2017
+ 1984  mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 1985  ls test/2017
+ 1986  ls test/2017/1
+ 1987  mkdir -p test/{2010..2017}/{1..12}/{1..12}| touch 001.txt
+ 1988  ls test/2017/1/1
+ 1989  ls test
+ 1990  ls test/2017/1/12
+ 1991  ls test/2017/12
+ 1992  touch 001.txt |mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 1993  ls test/2017/12/1
+ 1994  ls 
+ 1995  rm 001.txt
+ 1996  rm -r test
+ 1997  rm tr
+ 1998  ls 
+ 1999  rm hw6
+ 2000  echo "Файл {001-012}" > test/{2010..2017}/{1..12}/{1..12}/{001-012}.txt
+ 2001  ls
+ 2002  echo "Файл {001-012}" > test/{2010..2017}/{1..12}/{1..12}/{001-012}.txt | mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2003  echo "Файл {001-012}" > {001-012}.txt | mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2004  ls
+ 2005  cat \{001-012\}.txt 
+ 2006  rm \{001-012\}.txt 
+ 2007  rm -r test
+ 2008  touch test/{2010..2017}/{1..12}/{1..12}/{001-012}.txt | mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2009  ls test
+ 2010  ls test/2010
+ 2011  ls test/2010/1
+ 2012* 
+ 2013  touch test/{2010..2017}/{1..12}/{1..12}/{001-012}.txt < mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2014  touch test/{2010..2017}/{1..12}/{1..12}/{001-012}.txt > mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2015  echo "Файл {001..012}" > {001..012}.txt | mkdir -p test/{2010..2017}/{1..12}/{1..12}
+ 2016  echo "Файл {001..012}" > {001..012}.txt
+ 2017  echo "Файл {001..012}" > {1..12}.txt
+ 2018  echo "Файл {001..012}" > {1..12.txt}
+ 2019  ls
+ 2020  touch test/*/file-{1..12}
+ 2021  touch test/{2012..2017}/file-{1..12}
+ 2022  touch -p test/*/file-{1..12}
+ 2023  ls test/2012
+ 2024  echo "Файл" < test/{2012..2017}/file-{1..12}
+ 2025  echo "Файл" > test/{2012..2017}/file-{1..12}
+ 2026  echo -n "Файл" > test/{2012..2017}/file-{1..12}
+ 2027  man echo > f1
+ 2028  xed f1
+ 2029  echo -n "Файл" | tee  test/{2012..2017}/file-{1..12}
+ 2030  cat test/2012/file-1
+ 2031  echo -n "Файл" | tee  test/{2012..2017}/file-{1..12} > dev/null
+ 2032  echo -n "Файл" | tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2033  cat test/2012/file-1
+ 2034  echo -n "Файл"{1..12}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2035  cat test/2012/file-1
+ 2036  cat test/2012/file-"
+>
+<
+"
+ 2037  echo "Файл"{1..12}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2038  cat test/2012/file-1
+ 2039  echo "Файл"{1..12} > f{1..12}
+ 2040* echo "Файл" {1} > f{1..12} > /dev/null
+ 2041  echo "Файл"{1}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2042  cat test/2012/file-1
+ 2043  echo "Файл" {1}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2044  cat test/2012/file-1
+ 2045  echo "Файл" 001| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2046  cat test/2012/file-1
+ 2047  echo "Файл" 001..012| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2048  cat test/2012/file-1
+ 2049  echo "Файл" {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2050  cat test/2012/file-1
+ 2051  echo "Файл"{001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2052  cat test/2012/file-1
+ 2053  echo {"Файл"} {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2054  cat test/2012/file-1
+ 2055  echo {"Файл"} {Файл 001..Файл 012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2056  cat test/2012/file-1
+ 2057  echo {Файл 001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2058  cat test/2012/file-1
+ 2059  echo Файл\{001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2060  cat test/2012/file-1
+ 2061  echo "Файл\{001..012}"| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2062  cat test/2012/file-1
+ 2063  echo "Файл"\{001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2064  cat test/2012/file-1
+ 2065  echo "Файл"{001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2066  cat test/2012/file-1
+ 2067  echo "Файл"\ {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2068  cat test/2012/file-1
+ 2069  a=1 b=3 echo "Файл"\ {00$a..0$b}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2070  cat test/2012/file-1
+ 2071  a=1 b=3 echo "Файл"\ {00$a..00$b}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2072  cat test/2012/file-1
+ 2073  a=1 b=3 "Файл"\ {00$a..00$b}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2074  a=1 b=3 "Файл"\ {00$a..00$b}| tee  test/{2012..2017}/file-{$a..12} > /dev/null
+ 2075  a=1 b=3 echo "Файл"\ {00$a..00$b}| tee  test/{2012..2017}/file-{$a..12} > /dev/null
+ 2076  cat test/2012/file-1
+ 2077  rm -r test | mkdir test/{2012..2017} | echo "Файл"\ {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2078  rm -r test | mkdir -p test/{2012..2017} | echo "Файл"\ {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2079  ls
+ 2080  rm -r test 
+ 2081* mkdir -p test/{2012..2017} $ (echo "Файл" | tee  test/{2012..2017}/file-{1..12})
+ 2082  ls test
+ 2083  ls test/2012
+ 2084  mkdir -p test/{2012..2017}$(echo "Файл"\ {001..012}| tee  test/{2012..2017}/file-{1..12} > /dev/null)
+ 2085  ls test/2012
+ 2086  ls test/2012/file-1/*
+ 2087  ls test/2012/file-1/
+ 2088  ls test/2012/file-1
+ 2089  cAT test/2012/file-1
+ 2090  cat test/2012/file-1
+ 2091  mkdir -p test/{2012..2017}$(touch  test/{2012..2017}/file-{1..12}$(echo "a")
+"
+>
+ 2092  mkdir -p test/{2012..2017}$(touch  test/{2012..2017}/file-{1..12}$(echo "a"))
+ 2093  cat test/2012/file-1
+ 2094  mkdir -p test/{2012..2017}$(echo "tes" >  test/{2012..2017}/file-{1..12})
+ 2095  mat test
+ 2096* 
+ 2097  mkdir -p test/{2012..2017}$(sed s//$filename/  test/{2012..2017}/file-{1..12})
+ 2098  mkdir -p test/{2012..2017}$(sed s/""/$filename/  test/{2012..2017}/file-{1..12})
+ 2099  mkdir -p test/{2012..2017}$(sed s/""/filename/  test/{2012..2017}/file-{1..12})
+ 2100  mkdir -p test/{2012..2017}$(sed -e 's/""/$filename/'  test/{2012..2017}/file-{1..12})
+ 2101  cat test/2012/file-1
+ 2102* mkdir -p test/{2012..2017}$(sed -e 's/"Файл"/$filename/'  test/{2012..2017}/{1..12})
+ 2103  cat test/2012/file-1
+ 2104  sed -e 's/" "/$filename/'  test/{2012..2017}/file-{1..12}
+ 2105  sed -e 's/" "/1/'  test/{2012..2017}/file-{1..12}
+ 2106  sed -e 's/" "//'  test/{2012..2017}/file-{1..12}
+ 2107  sed -e 's/" "//d'  test/{2012..2017}/file-{1..12}
+ 2108  sed -e 's/" "//g'  test/{2012..2017}/file-{1..12}
+ 2109  sed -e 's/" "/ -- /g'  test/{2012..2017}/file-{1..12}
+ 2110  sed -e "s/" "//d"  test/{2012..2017}/file-{1..12}
+ 2111  sed -e "s/" "/d/d"  test/{2012..2017}/file-{1..12}
+ 2112  sed -e "s/''/d/d"  test/{2012..2017}/file-{1..12}
+ 2113  sed -e "s/d/d/d"  test/{2012..2017}/file-{1..12}
+ 2114  sed -e `s/d/d/d`  test/{2012..2017}/file-{1..12}
+ 2115  sed -e "s/00/0/g"  test/{2012..2017}/file-{1..12}
+ 2116  sed -e "s/0/-/g"  test/{2012..2017}/file-{1..12}
+ 2117  sed -e "s/''/-/g"  test/{2012..2017}/file-{1..12}
+ 2118  sed -e "s/' '/-/g"  test/{2012..2017}/file-{1..12}
+ 2119  sed -e "s/a/-/g"  test/{2012..2017}/file-{1..12}
+ 2120  sed -e "s/а/-/g"  test/{2012..2017}/file-{1..12}
+ 2121  sed -e "y/а/-/g"  test/{2012..2017}/file-{1..12}
+ 2122  sed -e "y/а/-/"  test/{2012..2017}/file-{1..12}
+ 2123  sed -e "s/а/$filename/g"  test/{2012..2017}/file-{1..12}
+ 2124  sed -e "s/а/$filename/"  test/{2012..2017}/file-{1..12}
+ 2125  sed -e "s/а/d"  test/{2012..2017}/file-{1..12}
+ 2126  sed -e "s/а//d"  test/{2012..2017}/file-{1..12}
+ 2127  sed -e "s/а//g"  test/{2012..2017}/file-{1..12}
+ 2128  sed -e "s/ *$//"  test/{2012..2017}/file-{1..12}
+ 2129  sed -e 's/ *$//'  test/{2012..2017}/file-{1..12}
+ 2130  sed -e s/ *$//  test/{2012..2017}/file-{1..12}
+ 2131  sed -e 's/ //'  test/{2012..2017}/file-{1..12}
+ 2132  sed -e 's/ //g'  test/{2012..2017}/file-{1..12}
+ 2133  sed -e 's/ 00//g'  test/{2012..2017}/file-{1..12}
+ 2134  sed -e 's/ 0//g'  test/{2012..2017}/file-{1..12}
+ 2135  sed -e '/ 0//g'  test/{2012..2017}/file-{1..12}
+ 2136  sed -e '/^$/d'  test/{2012..2017}/file-{1..12}
+ 2137  sed -e '/^ $/d'  test/{2012..2017}/file-{1..12}
+ 2138  sed -e '/^а$/d'  test/{2012..2017}/file-{1..12}
+ 2139  sed -e '/а/d'  test/{2012..2017}/file-{1..12}
+ 2140  sed -e '/а/Файл/'  test/{2012..2017}/file-{1..12}
+ 2141  sed -e '/^/Файл/'  test/{2012..2017}/file-{1..12}
+ 2142  sed -e 's/^/Файл/'  test/{2012..2017}/file-{1..12}
+ 2143  sed -e 's/^/Файл/','/а//'  test/{2012..2017}/file-{1..12}
+ 2144  sed -e 's/^/Файл/','/а/d'  test/{2012..2017}/file-{1..12}
+ 2145  sed -e '/а/d'  test/{2012..2017}/file-{1..12}
+ 2146  ls
+ 2147  rm -r {001..012}
+ 2148  ls
+ 2149* 
+ 2150  sed -e '/а/d'  2
+ 2151  > 2
+ 2152  cat 2
+ 2153  sed -e '/^/файл/'  2
+ 2154  sed -e 's/^/файл/'  2
+ 2155  cat 2
+ 2156  sed -e 's/^/файл/'  2| tee 2
+ 2157  cat 2
+ 2158  sed  's/^/файл/'  2
+ 2159  cat 2
+ 2160  ls
+ 2161  echo "файл" > 2 $(sed  's/^/файл/'  2)
+ 2162  cat 2
+ 2163  sed  's/$/ 001/'  2
+ 2164  cat 2
+ 2165  sed  's/$/ 001/'  2| tee 2
+ 2166  cat 2
+ 2167  sed  's/$/ 001/'  2| sudo tee 2
+ 2168  cat 2
+ 2169  echo "файл" > 2 $(sed  's/^/файл/'  2)
+ 2170  sed  's/$/ 001/'  2| tee 2 >/ptr/null
+ 2171  history
+ 2172  sed  's/$/ 001/'  2| tee 2 >/dev/null
+ 2173  cat 2
+ 2174  lkajlkdj > 2
+ 2175  echo lkajlkdj > 2
+ 2176  cat 2
+ 2177  sed  's/$/ 001/'  2| tee 2 >/dev/null
+ 2178  cat 2
+ 2179  sed  's/$/ 001/'  2
+ 2180  cat 2
+ 2181  echo lkajlkdj > 2
+ 2182  sed  's/$/ 001/'  2
+ 2183  sed -i 's/$/ 001/'  2
+ 2184  cat 2
+ 2185  sed -e 's/^/Файл/'  test/{2012..2017}/file-{1..12}
+ 2186  sed -i '/а/d'  test/{2012..2017}/file-{1..12}
+ 2187  sed -i 's/^/файл {1..12}/'  test/{2012..2017}/file-{1..12}
+ 2188  sed -e 's/a//'  test/{2012..2017}/file-{1..12}
+ 2189  sed -i 's/^/файл/'  test/{2012..2017}/file-{1..12}
+ 2190  sed -i 's//файл/'  test/{2012..2017}/file-{1..12}
+ 2191  cat test/2012/file-1
+ 2192  echo "Файл " | tee  test/{2012..2017}/file-{1..12} > /dev/null
+ 2193  cat test/2012/file-1
+ 2194  sed -i 's/$/{1..12}/'  test/{2012..2017}/file-{1..12}
+ 2195  cat test/2012/file-1
+ 2196  sed -i "s/$/{1..12}/"  test/{2012..2017}/file-{1..12}
+ 2197  cat test/2012/file-1
+ 2198  echo test/{2012..2017}/file-{1..12}
+ 2199  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 1
+ 2200  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 1-
+ 2201  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f -1
+ 2202  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 3
+ 2203  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 1,2
+ 2204  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 3
+ 2205  echo test/{2012..2017}/file-{1..12}| cut -d"/" -f 3-
+ 2206  echo test/{2012..2017}/file-{1..12}| cut -dr "/" -f 3
+ 2207  cut -d "/" -f 3 < echo test/{2012..2017}/file-{1..12}
+ 2208  cut -d "/" -f 3 < $(echo test/{2012..2017}/file-{1..12})
+ 2209* 
+ 2210  ls
+ 2211  cat cut
+ 2212  cut -d "/" -f 3 < cut
+ 2213  cut cut -d "/" -f 3
+ 2214  sed -i "y/ /'\n'/" cut
+ 2215  sed -i "y/ /\n/" cut
+ 2216  cat cut
+ 2217  cut -d "/" -f 3 < cut
+ 2218  basename -- "2"
+ 2219  basename -- "/etc/passwd"
+ 2220  basename -- "test/{2012..2017}/file-{1..12}"
+ 2221  basename -- 'test/{2012..2017}/file-{1..12}'
+ 2222  basename -- `test/{2012..2017}/file-{1..12}`
+ 2223  basename -- "test/{2012..2017}/file-"{1..12}
+ 2224  basename --help
+ 2225  basename -a "test/{2012..2017}/file-"{1..12}
+ 2226  basename -a "test/{2012..2017}/file-"{1..12} | tee file-{1..12}
+ 2227  cat file-1
+ 2228  basename -a "test/{2012..2017}/file-"{1} | tee file-{1..12}
+ 2229* 
+ 2230  cat file-2
+ 2231  cat file-12
+ 2232  tee file-{1..12} < basename -a "test/{2012..2017}/file-"{1..12}
+ 2233  tee file-{1..12} < (basename -a "test/{2012..2017}/file-"{1..12})
+ 2234  tee file-{1..12} < $(basename -a "test/{2012..2017}/file-"{1..12})
+ 2235  mkdir -p test/{2012..2017}$(echo "Файл"\ {001..012}| tee  test/{2012..2017}/{1..12}.txt)
+ 2236  tee  test/{2012..2017}/{1..12}.txt
+ 2237  cd test/{2012..2017}/{1..12}.txt
+ 2238  pwk test/{2012..2017}/{1..12}.txt
+ 2239  awk test/{2012..2017}/{1..12}.txt
+ 2240  pwd test/{2012..2017}/{1..12}.txt
+ 2241  ls
+ 2242  001
+ 2243  cd 001
+ 2244  ls
+ 2245  cd ..
+ 2246  for i in 1..12 do echo $ i > file-{i}
+ 2247  for i in 1..12 do echo $ i ; 1
+ 2248  for i in 1..12 do echo $ i > file-{i} done
+ 2249  for i in 1..12 do echo $ i done; d
+ 2250  for i in 1 do echo $ i done; d
+ 2251  for i in 1 do echo $ i done; for i in 1 do echo $ i done
+ 2252  for i in 1 do echo $ i; d
+ 2253  for i in 1; do echo $ i;done
+ 2254  for i in 1; do echo $i;done
+ 2255  for i in 1; do echo $i > file-{i};done
+ 2256  cat file-1
+ 2257  cat file-2
+ 2258* 
+ 2259  for i in 1; do echo $i | tee file-{i};done
+ 2260  cat file-1
+ 2261  ls file-\{i\} 
+ 2262  for i in {1..15} ; do echo $i | tee file-{i};done
+ 2263  ls
+ 2264  cat file-1
+ 2265  cat file-\{i\} 
+ 2266  for i in {1..15} ; do echo $i | tee file-{1..12};done
+ 2267  for i in {1..15} ; do echo $i | tee file-{1..12};done ls
+ 2268  ls
+ 2269  cat file-1
+ 2270  cat file-2
+ 2271  cat file-3
+ 2272  for i in {1..15} ; do echo $i > file-{1..12};done
+ 2273  for i in {1..15} ; do echo $i > file-{i};done
+ 2274  cat file-\{i\} 
+ 2275  cat file-1
+ 2276  mkdir -p {2012..2017}/{01..12}$(echo "Файл"\ {001..012}| tee  {2012..2017}/{01..12}/{001..031}.txt
+
+ 2277  mkdir -p {2012..2017}/{01..12}$(echo "Файл"\ {001..012}| tee  {2012..2017}/{01..12}/{001..031}.txt)
+ 2278  mkdir -p {2012..2017}/{01..12}$(echo "Файл"\ {001..012}.txt| tee  {2012..2017}/{01..12}/{001..031}.txt)
+ 2279  mkdir -p {2012..2017}/{01..12}$(echo "Файл"\ {001..012}.txt| tee  {2012..2017}/{01..12}/{001..012}.txt)
+ 2280  mkdir -p {2012..2017}/{01..12}$ (touch {2012..2017}/{01..12}/{001..012}.txt)$(echo "Файл"\ {001..012}.txt| tee  {2012..2017}/{01..12}/{001..012}.txt)
+ 2281  mkdir -p {2012..2017}/{01..12}$(touch {2012..2017}/{01..12}/{001..012}.txt)$(echo "Файл"\ {001..012}.txt| tee  {2012..2017}/{01..12}/{001..012}.txt)
+ 2282  rm -r {2012..2017}
+ 2283  ls
+ 2284  cat 001.txt
+ 2285  ls 001.txt
+ 2286  cd 001.txt
+ 2287  ls
+ 2288  ls -a
+ 2289  cd 
+ 2290  rm -r {001..012}.txt
+ 2291  ls
+ 2292  cd HomeWork/Linux/hw6
+ 2293  rm -r {001..012}.txt
+ 2294  ls
+ 2295  rm -r {001..012}
+ 2296  rm -r file-{1..12}
+ 2297  ls
+ 2298  rm \{1..12.txt\} 
+ 2299  rm file-\{i\} 
+ 2300  rm -r test
+ 2301  rm -r Файл/
+ 2302  cat mkdir
+ 2303  rm mkdir
+ 2304  mkdir -p {2012..2017}/{01..12}$(touch {2012..2017}/{01..12}/{001..012}.txt)$(echo "Файл"\ {001..012}.txt| tee  {2012..2017}/{01..12}/{001..012}.txt)
+ 2305  ls
+ 2306  ls 2012
+ 2307  ls 01Файл
+ 2308  ls 2012/01Файл
+ 2309* mkdir -p {2012..2017}/{01..12}$(touch {2012..2017}/{01..12}/{001..012}.txt)\\\\\\\
+ 2310  ls 2012/01Файл
+ 2311  ls 2012/
+ 2312  ls 2012/01
+ 2313  ды
+ 2314  ls
+ 2315  rm -r {001..012}.txt
+ 2316  rm -r {2012..2017}
+ 2317  rm -r Файл
+ 2318  ды
+ 2319  ls
+ 2320  history
+ 2321  history > f1

@@ -1,0 +1,22 @@
+[connection]
+id=Автоматически настроить Izmailovo_Wi-Fi
+uuid=0a174a24-ee27-4135-9cc5-16324bd72028
+type=wifi
+interface-name=wlp9s0
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=Izmailovo_Wi-Fi
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]

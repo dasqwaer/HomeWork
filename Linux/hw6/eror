@@ -1,0 +1,50 @@
+109:Apr 24 06:47:53 Ground kernel: [37616.144428] mce: [Hardware Error]: Machine check events logged
+110:Apr 24 06:47:53 Ground kernel: [37616.144431] mce: [Hardware Error]: Machine check events logged
+156:Apr 24 06:47:53 Ground kernel: [37617.226635] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+304:Apr 24 06:48:22 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+332:Apr 24 07:57:19 Ground fwupd[49066]: 00:57:19:0388 FuPluginUefi         Error opening directory “/sys/firmware/efi/esrt/entries”: Нет такого файла или каталога
+386:Apr 24 09:11:01 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+501:Apr 24 12:53:11 Ground kernel: [47200.980380] mce: [Hardware Error]: Machine check events logged
+502:Apr 24 12:53:11 Ground kernel: [47200.980383] mce: [Hardware Error]: Machine check events logged
+544:Apr 24 12:53:12 Ground kernel: [47202.134171] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+669:Apr 24 12:53:29 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+753:Apr 24 18:13:59 Ground kernel: [50424.406485] mce: [Hardware Error]: Machine check events logged
+754:Apr 24 18:13:59 Ground kernel: [50424.406488] mce: [Hardware Error]: Machine check events logged
+798:Apr 24 18:14:00 Ground kernel: [50425.496828] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+929:Apr 24 18:14:08 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+1012:Apr 25 07:01:15 Ground kernel: [56241.033602] mce: [Hardware Error]: Machine check events logged
+1013:Apr 25 07:01:15 Ground kernel: [56241.033605] mce: [Hardware Error]: Machine check events logged
+1058:Apr 25 07:01:16 Ground kernel: [56243.611568] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+1196:Apr 25 07:01:31 Ground fwupd[78268]: 00:01:31:0033 FuPluginUefi         Error opening directory “/sys/firmware/efi/esrt/entries”: Нет такого файла или каталога
+1320:Apr 25 07:26:22 Ground kernel: [56698.742529] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+1349:Apr 25 07:26:22 Ground kernel: [56708.171030] mce: [Hardware Error]: Machine check events logged
+1350:Apr 25 07:26:22 Ground kernel: [56708.171033] mce: [Hardware Error]: Machine check events logged
+1389:Apr 25 07:26:23 Ground kernel: [56709.246421] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+1530:Apr 25 07:28:19 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+1769:Apr 25 07:46:51 Ground 50mounted-tests: debug: mounting /dev/mapper/osprober-linux-sda5 (/dev/sda5) as ext4 failed: mount: /var/lib/os-prober/mount: wrong fs type, bad option, bad superblock on /dev/mapper/osprober-linux-sda5, missing codepage or helper program, or other error.
+2818:Apr 25 07:54:58 Ground kernel: [    0.781063] RAS: Correctable Errors collector initialized.
+2972:Apr 25 07:54:58 Ground kernel: [    1.423128] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.GFX0.DD02._BCL], AE_NOT_FOUND (20190816/psargs-330)
+2976:Apr 25 07:54:58 Ground kernel: [    1.423160] ACPI Error: Aborting method \_SB.PCI0.RP05.PEGP.DD02._BCL due to previous error (AE_NOT_FOUND) (20190816/psparse-529)
+3082:Apr 25 07:54:58 Ground kernel: [   10.661183] EXT4-fs (sda10): re-mounted. Opts: errors=remount-ro
+3152:Apr 25 07:54:58 Ground kernel: [   15.592835] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+3440:Apr 25 07:55:02 Ground thermald[687]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+3444:Apr 25 07:55:02 Ground thermald[687]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+3446:Apr 25 07:55:02 Ground thermald[687]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+3739:Apr 25 07:56:03 Ground pulseaudio[1004]: Error opening PCM device front:1: Нет такого файла или каталога
+3740:Apr 25 07:56:03 Ground pulseaudio[1004]: Error opening PCM device front:1: Нет такого файла или каталога
+3897:Apr 25 07:58:10 Ground kernel: [  217.142460] audit: type=1400 audit(1619312290.068:27): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/ratmir/.xsession-errors" pid=1864 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+3899:Apr 25 07:58:10 Ground kernel: [  217.144548] audit: type=1400 audit(1619312290.072:29): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/home/ratmir/.xsession-errors" pid=1864 comm="pool-soffice" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+4051:Apr 25 10:26:57 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+4074:Apr 25 11:39:59 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+4174:Apr 25 14:05:33 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+4204:Apr 25 15:34:20 Ground cinnamon-screensaver-pam-helper: pam_ecryptfs: seteuid error
+5202:Apr 25 20:19:28 Ground kernel: [    0.776838] RAS: Correctable Errors collector initialized.
+5346:Apr 25 20:19:28 Ground kernel: [    1.416418] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.GFX0.DD02._BCL], AE_NOT_FOUND (20190816/psargs-330)
+5350:Apr 25 20:19:28 Ground kernel: [    1.416449] ACPI Error: Aborting method \_SB.PCI0.RP05.PEGP.DD02._BCL due to previous error (AE_NOT_FOUND) (20190816/psparse-529)
+5466:Apr 25 20:19:28 Ground kernel: [   11.018695] EXT4-fs (sda10): re-mounted. Opts: errors=remount-ro
+5535:Apr 25 20:19:28 Ground kernel: [   15.824057] bluetooth hci0: Direct firmware load for rtl_bt/rtl8723b_config.bin failed with error -2
+5928:Apr 25 20:19:32 Ground thermald[725]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+5932:Apr 25 20:19:32 Ground thermald[725]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+5934:Apr 25 20:19:32 Ground thermald[725]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+6245:Apr 25 20:22:12 Ground pulseaudio[1025]: Error opening PCM device front:1: Нет такого файла или каталога
+6246:Apr 25 20:22:12 Ground pulseaudio[1025]: Error opening PCM device front:1: Нет такого файла или каталога

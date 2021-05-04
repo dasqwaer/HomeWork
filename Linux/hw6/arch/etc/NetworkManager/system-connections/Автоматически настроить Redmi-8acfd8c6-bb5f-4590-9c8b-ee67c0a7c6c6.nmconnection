@@ -1,0 +1,22 @@
+[connection]
+id=Автоматически настроить Redmi
+uuid=8acfd8c6-bb5f-4590-9c8b-ee67c0a7c6c6
+type=wifi
+interface-name=wlp9s0
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=Redmi
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]

@@ -1,0 +1,22 @@
+[connection]
+id=Автоматически настроить www.oldtown58.ru
+uuid=af4c1181-2f44-4837-bb13-4d04e198d4f0
+type=wifi
+interface-name=wlp9s0
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=www.oldtown58.ru
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]

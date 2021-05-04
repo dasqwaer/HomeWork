@@ -1,0 +1,10 @@
+RELEASE=20.1
+CODENAME=ulyssa
+EDITION="Cinnamon"
+DESCRIPTION="Linux Mint 20.1 Ulyssa"
+DESKTOP=Gnome
+TOOLKIT=GTK
+NEW_FEATURES_URL=https://www.linuxmint.com/rel_ulyssa_cinnamon_whatsnew.php
+RELEASE_NOTES_URL=https://www.linuxmint.com/rel_ulyssa_cinnamon.php
+USER_GUIDE_URL=https://www.linuxmint.com/documentation.php
+GRUB_TITLE=Linux Mint 20.1 Cinnamon

@@ -1,0 +1,13 @@
+[Unit]
+Description=Mount unit for hello-world, revision 29
+Before=snapd.service
+
+[Mount]
+What=/var/lib/snapd/snaps/hello-world_29.snap
+Where=/snap/hello-world/29
+Type=squashfs
+Options=nodev,ro,x-gdu.hide
+LazyUnmount=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,27 @@
+[connection]
+id=Автоматически настроить Gipertelecom_II_108A4E
+uuid=4f9365f8-3922-42b5-8a0c-0e38be720858
+type=wifi
+interface-name=wlp9s0
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=Gipertelecom_II_108A4E
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=00000001
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+method=auto
+
+[proxy]

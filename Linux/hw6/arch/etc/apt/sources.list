@@ -1,0 +1,12 @@
+#deb cdrom:[Linux Mint 20.1 _Ulyssa_ - Release amd64 20210103]/ focal contrib main
+
+# This system was installed using small removable media
+# (e.g. netinst, live or single CD). The matching "deb cdrom"
+# entries were disabled at the end of the installation process.
+# For information about how to configure apt package sources,
+# see the sources.list(5) manual.
+deb http://download.virtualbox.org/virtualbox/debian bionic contrib
+
+deb http://nginx.org/packages/ubuntu bionic nginx 
+
+

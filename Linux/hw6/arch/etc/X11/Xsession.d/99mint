@@ -1,0 +1,14 @@
+# This file is sourced by Xsession(5), not executed.
+
+# Create the user applications directory
+mkdir -p ~/.local/share/applications
+
+if [ "x$DESKTOP_SESSION" = "xmate" ] || [ "x$XDG_SESSION_DESKTOP" = "xmate" ]; then
+    # Workaround clutter issue (LP: #1462445)
+    export CLUTTER_BACKEND=x11
+fi
+
+if [ "x$DESKTOP_SESSION" = "xxfce" ] || [ "x$XDG_SESSION_DESKTOP" = "xxfce" ]; then
+    # Workaround clutter issue (LP: #1462445)
+    export CLUTTER_BACKEND=x11
+fi
