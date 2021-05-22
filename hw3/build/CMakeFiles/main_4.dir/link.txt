@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main_4.dir/pr3.cpp.o  -o main_4 

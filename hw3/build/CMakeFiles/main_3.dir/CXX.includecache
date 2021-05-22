@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ratmir/HomeWork/hw3/file1.cpp
+iostream
+-
+file2.h
+/home/ratmir/HomeWork/hw3/file2.h
+
+/home/ratmir/HomeWork/hw3/file2.h
+
